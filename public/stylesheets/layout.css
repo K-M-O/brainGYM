@@ -1,0 +1,29 @@
+/* project layout style */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+#container{
+    display: grid;
+    grid-template-rows: 1fr;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: 0px;
+}
+
+#container::-webkit-scrollbar{
+    display: none;
+}
+#app{
+    display: grid;
+    grid-template-columns:1fr;
+}

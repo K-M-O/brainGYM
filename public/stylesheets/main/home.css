@@ -1,0 +1,52 @@
+/* home page style */
+
+@font-face {
+    font-family: customArabic;
+    src: url('/fonts/Traditional-Arabic.ttf');
+}
+
+#home{
+    display: grid;
+    place-items: center;
+    padding: 0 50px;
+}
+
+#logo,#image1{
+    width: 50%;
+    padding: 20px 0;
+}
+.header{
+    font-size:6vw;
+}
+
+.paragraph{
+    padding: 10px 0;
+    font-family: 'Times New Roman';
+    word-break: keep-all;
+    place-self: center start;
+}
+
+.headline{
+    font-family: customArabic;
+    place-self: center start;
+    color: #610808;
+}
+.link{
+    text-decoration: none;
+    color: #232323;
+    cursor: pointer;
+}
+.more{
+    color: #636363;
+    place-self: center start;
+    padding: 20px 0;
+}
+#socialMedia{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+}
+#reset,#less{
+    display: none;
+}
